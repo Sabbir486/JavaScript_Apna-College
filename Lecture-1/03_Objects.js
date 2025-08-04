@@ -16,8 +16,9 @@ console.log(student.marks);
 console.log(typeof(student));
 
 
-//Another Way
+//Change the Variable in an Object
 student.marks = student.marks + 5;
 console.log(student.marks);
+
 
 
