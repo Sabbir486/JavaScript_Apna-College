@@ -12,7 +12,7 @@ console.log("a / b = ", a/b);
 
 console.log("a % b = ", a%b);
 
-//Exponentiation --> **
+//Exponentiation --> Power
 
 console.log("a ** b = ", a**b);
 
@@ -72,6 +72,7 @@ console.log(cond1 || cond2);
 //Logical Not --> Give Oppsite Result
 console.log(!cond1);
 console.log();
+
 
 
 
