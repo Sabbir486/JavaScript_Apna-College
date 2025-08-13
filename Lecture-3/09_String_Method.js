@@ -9,8 +9,8 @@ let met2 = str.trim();
 console.log(met2);
 console.log();
 
-let met3 = str.replace("abb", "bbb");
-console.log(met3);
+str = str.replace("abb", "bbb"); //Old str replaced by new str
+console.log(str);
 console.log();
 
 let met4 = str.charAt(6);
