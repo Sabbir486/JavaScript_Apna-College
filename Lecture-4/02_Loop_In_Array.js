@@ -1,3 +1,5 @@
+//Print all elements
+
 let marks = [4,6,8,10,3,2];
 
 //for loop
@@ -12,4 +14,5 @@ console.log();
 for(let ele of marks){
     console.log(ele + 4);
     
+
 }
