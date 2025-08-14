@@ -1,3 +1,5 @@
+//String is immutable
+
 let str = "Sabbir Ahmed";
 console.log(str);
 
