@@ -22,7 +22,7 @@ console.log(strMark);
 console.log();
 
 
-//Method-4: unshift == push()
+//Method-4: unshift == push() --> Add at beginning
 
 marks.unshift(100);
 console.log(marks);
@@ -30,7 +30,7 @@ console.log();
 
 
 
-//Method-5: shift == pop()
+//Method-5: shift == pop() --> Delete from start
 
 marks.shift(100);
 console.log(marks);
@@ -41,6 +41,7 @@ console.log();
 
 let arr = [1,2,3,4,5,6,7];
 console.log(arr.splice(2,0,101,102));
+
 
 
 
