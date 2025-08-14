@@ -1,3 +1,5 @@
+//Practice Question
+
 let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
 
 //Part-1
@@ -16,6 +18,7 @@ console.log();
 companies.push("Amazon");
 console.log(companies);
 console.log();
+
 
 
 
