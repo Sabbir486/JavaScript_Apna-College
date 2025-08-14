@@ -1,3 +1,5 @@
+//Array -> Collection of items
+
 let marks = [96, 98, 99, 92, 95];
 console.log(marks);
 console.log(marks.length);
@@ -11,6 +13,7 @@ console.log();
 
 marks[2] = 69;
 console.log(marks);
+
 
 
 
