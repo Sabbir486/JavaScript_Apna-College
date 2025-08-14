@@ -13,11 +13,3 @@ console.log();
 
 marks[2] = 69;
 console.log(marks);
-
-
-
-
-
-
-
-
