@@ -8,7 +8,7 @@ console.log(companies);
 console.log();
 
 
-//Part-2
+//Part-2 --> Replace
 companies.splice(2, 1, "Ola")
 console.log(companies);
 console.log();
@@ -18,6 +18,7 @@ console.log();
 companies.push("Amazon");
 console.log(companies);
 console.log();
+
 
 
 
