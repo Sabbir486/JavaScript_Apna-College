@@ -3,8 +3,8 @@
 let marks = [4,6,8,10,3,2];
 
 //for loop
-for(let idx=0; idx<marks.length; idx++){
-    console.log(marks[idx]);
+for(let i=0; i<marks.length; i++){
+    console.log(marks[i]);
     
 }
 console.log();
@@ -16,3 +16,4 @@ for(let ele of marks){
     
 
 }
+
