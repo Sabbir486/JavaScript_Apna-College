@@ -27,3 +27,4 @@ const printHello = () => {
     console.log("Hello Print");
     
 }
+printHello();
