@@ -24,8 +24,17 @@
  console.log();
  
 
- //Function Sum
+//Function Sum
 
+//Do work
+function summation(a,b){
+  console.log(a+b);
+}
+
+summation(5,10);
+
+
+//Return Value
  function sum(x,y){
     s = x+y;
     return s;
@@ -36,4 +45,5 @@
  
 
  
+
  
