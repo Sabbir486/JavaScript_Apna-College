@@ -3,7 +3,7 @@
 let arr = [1,2,3,4,5];
 
 let newArr = arr.map((val) => {
-    return val
+    return val*val;
     
 })
 
@@ -15,7 +15,7 @@ console.log();
 //Method-2: Filter
 
 let evenArr2 = arr.filter((val) => {
-    return val % 2 === 0;
+    return val % 2 === 0; //Condition
 })
 
 console.log(evenArr2);
