@@ -13,12 +13,12 @@ sum(5, 10);
 //Multiplication Function
 
 const mul = (c,d) => {
-    console.log(c*d);
+    return(c * d);
     
 }
 
-mul(10,20);
-console.log();
+let val = mul(10,20);
+console.log(val);
 
 
 //Print Hello
