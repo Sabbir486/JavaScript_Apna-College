@@ -1,3 +1,7 @@
+//DOM --> Document Object Model
+//DOM --> Accessing HTML through JavaScript
+
+
 //Accessing Element by using Id
 
 let heading = document.getElementById("heading"); //h1
@@ -31,5 +35,6 @@ console.dir(document.body.firstChild); //Node-> text, comment, element
 
 let head = document.querySelector("h1");
 console.log(head);
+
 
 
