@@ -1,12 +1,18 @@
 //DOM --> Document Object Model
 //DOM --> Accessing HTML through JavaScript
 
+//To do Dynamic Changes in pages we use DOM. It's not possible through HTML. That's why 
+//it is done by JavaScript.(***)
+
+//***console.dir() -> Print property and method (To print Object)
+//***console.log() -> Only print
+
 
 //Accessing Element by using Id
 
 let heading = document.getElementById("heading"); //h1
-console.dir(heading); //dir -> Print property and method** (To print Object)
-                      //log -> Only print
+console.dir(heading); 
+                      
 
 //Accessing Element by using Class
 
@@ -35,6 +41,7 @@ console.dir(document.body.firstChild); //Node-> text, comment, element
 
 let head = document.querySelector("h1");
 console.log(head);
+
 
 
 
