@@ -1,7 +1,8 @@
 //Accessing Element by using Id
 
 let heading = document.getElementById("heading"); //h1
-console.dir(heading);
+console.dir(heading); //dir -> Print property and method**
+                      //log -> Only print
 
 //Accessing Element by using Class
 
@@ -30,3 +31,4 @@ console.dir(document.body.firstChild); //Node-> text, comment, element
 
 let head = document.querySelector("h1");
 console.log(head);
+
