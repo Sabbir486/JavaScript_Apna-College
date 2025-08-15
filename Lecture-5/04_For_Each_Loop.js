@@ -9,9 +9,11 @@ arr.forEach((val, idx) => {
 
 console.log(); 
 
-// Example 2: Practice Problem - Print the square of each value
-let ar = [1, 2, 3, 4, 5];
+// Practice Problem
+
+let ar = [1,2,3,4,5]
 
 ar.forEach((val) => {
     console.log(val * val);
-});
+    
+})
