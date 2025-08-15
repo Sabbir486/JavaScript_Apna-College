@@ -7,6 +7,7 @@
 //***console.dir() -> Print property and method (To print Object)
 //***console.log() -> Only print
 
+//DOM Manipulation --->
 
 //Accessing Element by using Id
 
@@ -41,6 +42,7 @@ console.dir(document.body.firstChild); //Node-> text, comment, element
 
 let head = document.querySelector("h1");
 console.log(head);
+
 
 
 
