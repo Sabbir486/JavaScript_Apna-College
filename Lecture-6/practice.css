@@ -1,0 +1,13 @@
+.box{
+    color: antiquewhite;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 2px solid burlywood;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    line-height: 40px;
+
+}
