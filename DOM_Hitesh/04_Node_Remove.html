@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Remove</title>
+</head>
+<body>
+    <ul class="lang">
+        <li>JS</li>
+    </ul>
+    
+</body>
+
+<script>
+    function addLang(langName){
+        const li = document.createElement('li');
+        li.innerHTML = `${langName}`;
+        document.querySelector('.lang').appendChild(li);
+    }
+    addLang("python");
+    addLang("C++");
+
+    // Optimize Way --> Easy Way
+
+    function addOptiLang(langName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.lang').appendChild(li);
+    }
+    addOptiLang("GoLang");
+
+    // Edit Value
+
+    const secondLang = document.querySelector("li:nth-child(2)");
+    secondLang.innerHTML = 'TypeScript';
+
+    //Remove Value
+
+    const lastLang = document.querySelector('li:last-child');
+    lastLang.remove();
+
+</script>
+
+</html>
