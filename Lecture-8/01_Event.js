@@ -18,8 +18,10 @@
 
 // Event Listener -->
 
+
 let btn1 = document.querySelector("#btn1");
 
+//node.addEventListener(event, callback function(Arrow Function) )
 btn1.addEventListener("click", (evt) => {
     console.log("Button was clicked- Handler1");
     // console.log(evt);
@@ -47,4 +49,5 @@ btn1.addEventListener("click", () => {
 
 // Delete Event Listener
 
+//node.removeEventListener(event, callback function(Arrow Function) )
 btn1.removeEventListener("click", handler3);
