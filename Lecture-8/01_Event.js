@@ -29,10 +29,12 @@ btn1.addEventListener("click", (evt) => {
        
 })
 
+// Basic Events -> type, timestamp, defaultPrevented, target, toElement, srcElement, currentTarget, clientX, clientY, screenX, screenY, shiftKey, keyCode
+
 btn1.addEventListener("click", () => {
     console.log("Button was clicked- Handler2");
     
-})
+}, false) //false, true -> bubbling up event (by default -> false)
 
 //Arrow Function
 const handler3 =  () => {
@@ -44,6 +46,16 @@ btn1.addEventListener("click", handler3);
 
 btn1.addEventListener("click", () => {
     console.log("Button was clicked- Handler4");
+    
+})
+
+//preventDefault
+
+let google = document.querySelector("#google");
+
+google.addEventListener('click', (e) => {
+    console.log("Google was Clicked");
+    e.preventDefault();
     
 })
 
